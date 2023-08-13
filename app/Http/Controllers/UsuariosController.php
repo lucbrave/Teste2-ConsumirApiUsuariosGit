@@ -43,14 +43,14 @@ class UsuariosController extends Controller
            
 
             var usuarioDetalhado="";
-            usuarioDetalhado+="<br><br> Nome de Usuario: <input type=text name=nomeUsuario id=nomeUsuario > ";
-            usuarioDetalhado+="<br> Id:                  <input type=text name=idUsuario id=idUsuario > ";
-            usuarioDetalhado+="<br> Node Id:             <input type=text name=nodeId id=nodeId > ";
-            usuarioDetalhado+="<br> Nome:                <input type=text name=nome id=nome > ";
-            usuarioDetalhado+="<br> Cidade:              <input type=text name=cidade id=cidade > ";
-            usuarioDetalhado+="<br> Bio:                 <input type=text name=bio id=bio > ";
-            usuarioDetalhado+="<br> Data Criacao:        <input type=text name=dataCriacao id=dataCriacao > ";
-            usuarioDetalhado+="<br> Ultima Atualizacao:  <input type=text name=dataAtualizacao id=dataAtualizacao > ";
+            usuarioDetalhado+="<br><br> Nome de Usuario: <input readonly type=text name=nomeUsuario id=nomeUsuario > ";
+            usuarioDetalhado+="<br> Id:                  <input readonly type=text name=idUsuario id=idUsuario > ";
+            usuarioDetalhado+="<br> Node Id:             <input readonly type=text name=nodeId id=nodeId > ";
+            usuarioDetalhado+="<br> Nome:                <input readonly type=text name=nome id=nome > ";
+            usuarioDetalhado+="<br> Cidade:              <input readonly type=text name=cidade id=cidade > ";
+            usuarioDetalhado+="<br> Bio:                 <input readonly type=text name=bio id=bio > ";
+            usuarioDetalhado+="<br> Data Criacao:        <input readonly type=text name=dataCriacao id=dataCriacao > ";
+            usuarioDetalhado+="<br> Ultima Atualizacao:  <input readonly type=text name=dataAtualizacao id=dataAtualizacao > ";
           
             document.getElementById("UsuarioDetalhado").innerHTML=usuarioDetalhado;
             document.getElementById("nomeUsuario").value=$usuarioJSON["login"];
