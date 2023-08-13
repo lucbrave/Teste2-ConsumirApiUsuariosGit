@@ -8,9 +8,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Usuario Git</title>
     </head>
-    <body>
+    <body class="tela">
         <div class="container">
-            <h1>USUARIO GIT</h1>   
+            <h1 >USUARIO GIT</h1>   
         </div>
     </body>
 </html>

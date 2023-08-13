@@ -1,3 +1,21 @@
-h1{
+.vermelho{
   color:red;
+}
+
+.inputUsuario{
+  color:white;
+  background-color: #303336;
+}
+.usuarioJson{
+  color:white;
+ 
+}
+.usuarioDetalhe{
+  color:white;
+  
+}
+
+.tela{
+  color:white;
+  background-color: #484f58;
 }
