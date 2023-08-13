@@ -1,0 +1,11 @@
+Para conseguir utilizar, deve se utilizar o comando php artisan serve dentro da pasta no projeto na linha de comando ,para isso e necessario que o laravel esteja instalado.
+
+A rota utilizada para o iniciar o projeto sera http://127.0.0.1:8000/usuarios 
+
+A Busca de usuario git funciona da seguinte forma
+
+O usuário deve digitar um nome de usuario git  e clicar no botaão "Clique para buscar informacoes do usuario com o Nome de usuario informado" então código buscara na api as informações sobre o mesmo.
+
+As informações do usuario no padrão json convertida para string serão mostradas na tela.
+
+As informações do usuario git tratadas e demonstradas via tela dentro dos inputs.
